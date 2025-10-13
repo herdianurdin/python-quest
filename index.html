@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Quest: Belajar Koding Jadi Seru</title>
+
+    <meta name="theme-color" content="#4F46E5" />
+    <link rel="apple-touch-icon" href="/python-quest/apple-touch-icon.png" />
+    <link rel="icon" href="/python-quest/favicon.ico" />
+
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+    <script type="module" crossorigin src="/python-quest/assets/index-BJFF4T8Z.js"></script>
+    <link rel="stylesheet" crossorigin href="/python-quest/assets/index-DqjLXNi6.css">
+  <link rel="manifest" href="/python-quest/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/python-quest/registerSW.js"></script></head>
+  <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div id="root"></div>
+  </body>
+</html>

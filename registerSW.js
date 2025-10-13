@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/python-quest/sw.js', { scope: '/python-quest/' })})}
